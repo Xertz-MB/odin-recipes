@@ -1,0 +1,28 @@
+.french-fries-pic{
+    height: 400px;
+}
+
+.recipe-container{
+    width: 400px;
+}
+
+.adobo-pic,
+.french-fries-pic,
+.carbonara-pic{
+    height: 300px;
+}
+
+.recipe-desc, ol{
+    font-family:sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+ul{
+    font-style: italic;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
