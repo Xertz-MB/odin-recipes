@@ -3,12 +3,10 @@
 }
 
 .recipe-container{
-    width: 400px;
 }
 
 .adobo-pic,
-.french-fries-pic,
-.carbonara-pic{
+.french-fries-pic{
     height: 300px;
 }
 
@@ -18,11 +16,62 @@
     text-align: justify;
 }
 
+
+
+
+
+body{
+    margin: 0;
+    background-color:#F2F4EA;
+}
+
 ul{
     font-style: italic;
 }
 
-li{
+.ingredients-container li{
+    margin-bottom: 5px;
+    width: 230px;
+}
+
+.ingredients-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.carbonara-pic{
+    height: 300px;
+    
+}
+
+.pic-container, .parts, .desc-container, .steps-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    background-color:#1E1F20;
+    color: #F2F4EA;
+    padding: 5px;    
+    width: 500px;
+    
+}
+
+.change-width{
+    width: 500px;
+}
+
+.steps-container li{
+    width: 470px;
     margin-bottom: 5px;
 }
+
+
+
 
