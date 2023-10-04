@@ -1,0 +1,63 @@
+body {
+    margin:0;
+    background: url(../../homepage-images/ODIN-Recipes.png) center no-repeat  ;
+    background-size: cover;
+}
+
+.title-container {
+    background-color: #1E1F20;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: #F2F4EA;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-container {
+    display: flex;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.adobo, .carbonara, .fries {
+    width: 341px;
+    height: 392px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(50%);
+    transition: filter 0.2s ease, width 1s ease;
+}
+
+.adobo {
+    background: url(../../recipe-images/adobo.webp) center no-repeat;
+}
+
+.carbonara {
+    background: url(../../recipe-images/carbonara.webp) center no-repeat;
+}
+
+.fries {
+    background: url(../../recipe-images/frecnh-fries.webp) center no-repeat;
+}
+
+.recipe {
+    cursor: pointer;
+    font-size: 35px;
+    color: #F2F4EA;
+}
+
+.adobo:hover, .carbonara:hover, .fries:hover {
+    filter: brightness(100%);
+    width: 700px;
+}
